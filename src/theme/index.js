@@ -211,7 +211,7 @@ const ANTD_THEME = {
 /**
  * CONFIGURE THEME HERE
  * **/
-const COLORS = {
+export const COLORS = {
   ...ANTD_COLORS,
   ...GREY_COLORS,
   ...GREEN_COLOR,
@@ -231,9 +231,3 @@ const STYLES = {
   CONTAINER_PADDING: 32,
 }
 
-module.exports = {
-  COLORS,
-  STYLES,
-  ANTD_THEME,
-  ANTD_COLORS,
-}
